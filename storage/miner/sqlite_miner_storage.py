@@ -126,7 +126,6 @@ class SqliteMinerStorage(MinerStorage):
 
     def store_data_entities(self, data_entities: List[DataEntity]):
         """Stores any number of DataEntities, making space if necessary."""
-        print(len(data_entities), ' to be stored in db')
         added_content_size = 0
         for data_entity in data_entities:
             added_content_size += data_entity.content_size_bytes

@@ -105,7 +105,7 @@
     },
     {
       "scraper_id": "Reddit.lite",
-      "cadence_seconds": 10000,
+      "cadence_seconds": 1000000,
       "labels_to_scrape": [
         {
           "label_choices": [
@@ -206,7 +206,7 @@
     },
     {
       "scraper_id": "Reddit.custom",
-      "cadence_seconds": 600,
+      "cadence_seconds": 1500,
       "labels_to_scrape": [
         {
           "label_choices": [
@@ -301,7 +301,7 @@
             "r/aiArt",
             "r/Quant"
           ],
-          "max_data_entities": 500
+          "max_data_entities": 100
         }
       ]
     }
