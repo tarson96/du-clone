@@ -5,14 +5,12 @@ __pycache__/
 
 # VS code
 .vscode/
-.env
 
 # Playground notebooks
 *Playground.ipynb
 
 # Test created DB
 myDb
-*.sqlite
 
 # C extensions
 *.so
@@ -131,7 +129,6 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
 .venv
 env/
 venv/
